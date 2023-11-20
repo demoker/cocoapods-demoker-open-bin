@@ -1,0 +1,26 @@
+require 'cocoapods'
+require 'cocoapods-tme-open-bin/gem_version'
+
+if Pod.match_version?('~> 1.4')
+  require 'cocoapods-tme-open-bin/native/podfile'
+  require 'cocoapods-tme-open-bin/native/installation_options'
+  require 'cocoapods-tme-open-bin/native/specification'
+  require 'cocoapods-tme-open-bin/native/path_source'
+  require 'cocoapods-tme-open-bin/native/analyzer'
+  require 'cocoapods-tme-open-bin/native/installer'
+  require 'cocoapods-tme-open-bin/native/podfile_generator'
+  require 'cocoapods-tme-open-bin/native/pod_source_installer'
+  require 'cocoapods-tme-open-bin/native/linter'
+  require 'cocoapods-tme-open-bin/native/resolver'
+  require 'cocoapods-tme-open-bin/native/source'
+  require 'cocoapods-tme-open-bin/native/validator'
+  require 'cocoapods-tme-open-bin/native/acknowledgements'
+  require 'cocoapods-tme-open-bin/native/sandbox_analyzer'
+  require 'cocoapods-tme-open-bin/native/podspec_finder'
+  require 'cocoapods-tme-open-bin/native/file_accessor'
+  require 'cocoapods-tme-open-bin/native/pod_target_installer'
+  require 'cocoapods-tme-open-bin/native/target_validator'
+  require 'cocoapods-tme-open-bin/native/gen'
+  require 'cocoapods-tme-open-bin/native/lockfile'
+
+end
